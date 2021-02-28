@@ -42,4 +42,4 @@ bot.on("messageReactionAdd", (reaction, user) => {
 bot.on("messageReactionRemove", (reaction, user) => {
   require("./events/guild/messageReactionRemove")(reaction, user);
 });
-bot.login(token.Token);
+bot.login("ODAwODM3MjMxNDQyMTMzMDUz.YAX7yg.BbHh3CLONhFkiGwnfHgniWZkr2E");
